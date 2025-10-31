@@ -8,7 +8,6 @@
     grid-template-columns: repeat(1, 200px);
     gap: 46px 48px;
     justify-content: center;
-    box-sizing: border-box;
 
     @media (min-width: 488px) {
       grid-template-columns: repeat(2, 200px);
