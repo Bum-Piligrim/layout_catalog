@@ -7,14 +7,14 @@
 
   gap: 4px;
 
-  margin-top: 16px;
+  margin-top: $card-margin-top;
 
   &__star {
     background-image: url(../images/star.svg);
     background-repeat: no-repeat;
     background-position: center;
-    height: 16px;
-    width: 16px;
+    height: $stars-size;
+    width: $stars-size;
   }
 
   &--1 &__star:nth-child(-n + 1),

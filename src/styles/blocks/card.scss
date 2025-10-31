@@ -5,10 +5,12 @@
   flex-direction: column;
   justify-content: center;
   font-family: Roboto, sans-serif;
-  width: 200px;
   padding: 17px;
   background-color: $card-background-color;
-  transition: 300ms;
+  transition:
+    background-color 300ms ease,
+    color 300ms ease;
+
   &__image {
     display: flex;
     align-self: center;
